@@ -20,6 +20,6 @@
 		}
 	},
 	"files": {
-		"ignore": ["**/node_modules", "**/.amplify"]
+		"ignore": ["**/node_modules"]
 	}
 }
