@@ -9,7 +9,7 @@
     "check": "biome check ."
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.6.1"
+    "@biomejs/biome": "^1.7.1"
   },
-  "packageManager": "pnpm@8.15.4+sha256.cea6d0bdf2de3a0549582da3983c70c92ffc577ff4410cbf190817ddc35137c2"
+  "packageManager": "pnpm@9.0.5+sha256.61bd66913b52012107ec25a6ee4d6a161021ab99e04f6acee3aa50d0e34b4af9"
 }
