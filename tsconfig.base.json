@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/tsconfig.json",
   "compilerOptions": {
     "moduleResolution": "bundler",
-    "module": "esnext",
+    "module": "preserve",
     "lib": ["esnext"],
     "target": "esnext",
     "noImplicitAny": true,
@@ -10,6 +10,7 @@
     "noUncheckedIndexedAccess": true,
     "strict": true,
     "strictFunctionTypes": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "skipLibCheck": true
   }
 }
