@@ -2,15 +2,25 @@
   "$schema": "https://json.schemastore.org/tsconfig.json",
   "compilerOptions": {
     "moduleResolution": "bundler",
+    "moduleDetection": "force",
     "module": "preserve",
     "lib": ["esnext"],
     "target": "esnext",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "strict": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
-    "skipLibCheck": true
+    "strictPropertyInitialization": true,
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true
   }
 }
